@@ -1,3 +1,9 @@
+
+## IMPORTANT
+At the time of implementing the functionality of the payment button,in the document provided the link is broken
+![in the document provided the link is broken](public/broken.png)
+
+
 # Getting Started with Create React App
 ### `npm install`
 to install all dependencies .\
@@ -17,5 +23,5 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 
 ### Deployment
-to see the project deployed in https://surge.sh/ go to the following address 
+to see the project deployed in https://surge.sh/ go to the following address http://ablaze-rate.surge.sh/
 
