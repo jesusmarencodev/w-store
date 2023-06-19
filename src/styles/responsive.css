@@ -1,0 +1,62 @@
+@media (max-width: 1250px) {
+  .product__img {
+    height: 10vw;
+  }
+  .product-selected .product__img {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product__img {
+    height: 20vw;
+  }
+
+  .listProducts__list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding-top: 3rem;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .listProducts {
+    width: 40%;
+  }
+  .carShopping {
+    width: 60%;
+  }
+  .product__img {
+    height: 7vh;
+  }
+  .product__buy {
+    flex-direction: column;
+  }
+  .product__quantity {
+    left: 0rem;
+  }
+  .product-selected .product__img {
+    height: 11rem;
+  }
+  .buy__data {
+    margin-bottom: 1.5rem;
+  }
+  .item  {
+ 
+  }
+  .item__quantity {
+    margin: 0rem;
+  }
+
+  .shoppingCar__item img {
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+  }
+  .carShopping__button{
+    width: 12rem;
+    font-size: 1rem;
+  }
+
+}

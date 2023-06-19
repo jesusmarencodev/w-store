@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container component renders correctly 1`] = `
+<div
+  className="d-flex container"
+>
+  <article
+    className="listProducts"
+  >
+    <div
+      className="shadow"
+    />
+    <div
+      className="scrollbar"
+    >
+      <div
+        className="listProducts__list"
+      />
+    </div>
+  </article>
+  <aside
+    className="carShopping"
+  >
+    <div
+      className="shadow"
+      style={
+        Object {
+          "marginRight": "2.5rem",
+        }
+      }
+    />
+    <div
+      className="scrollbar"
+    >
+      <div>
+        <p
+          className="product__description"
+          style={
+            Object {
+              "paddingTop": "2.5rem",
+            }
+          }
+        >
+          Please choose a product on the left.
+        </p>
+      </div>
+    </div>
+  </aside>
+</div>
+`;

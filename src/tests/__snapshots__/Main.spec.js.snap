@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main component Snapshot 1`] = `
+<div
+  className="main"
+>
+  <header
+    className="head d-flex a-center"
+  >
+    <div
+      className="head__logo"
+    >
+      <img
+        alt="store"
+        className="head__img"
+        src="store.png"
+      />
+    </div>
+    <div
+      className="head__shop d-flex false"
+    >
+      <div
+        className="shop__button"
+        onClick={[Function]}
+      >
+        <img
+          alt="store"
+          className="head__img-car"
+          src="car.png"
+        />
+        <span
+          className="shop-total false"
+        >
+          $
+          0
+        </span>
+      </div>
+    </div>
+  </header>
+  <h3
+    className="main__title"
+  >
+    Store
+  </h3>
+  <div
+    className="d-flex container"
+  >
+    <article
+      className="listProducts"
+    >
+      <div
+        className="shadow"
+      />
+      <div
+        className="scrollbar"
+      >
+        <div
+          className="listProducts__list"
+        />
+      </div>
+    </article>
+    <aside
+      className="carShopping"
+    >
+      <div
+        className="shadow"
+        style={
+          Object {
+            "marginRight": "2.5rem",
+          }
+        }
+      />
+      <div
+        className="scrollbar"
+      >
+        <div>
+          <p
+            className="product__description"
+            style={
+              Object {
+                "paddingTop": "2.5rem",
+              }
+            }
+          >
+            Please choose a product on the left.
+          </p>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListProducts component renders correctly 1`] = `
+<article
+  className="listProducts"
+>
+  <div
+    className="shadow"
+  />
+  <div
+    className="scrollbar"
+  >
+    <div
+      className="listProducts__list"
+    >
+      <div
+        className="product d-flex a-center j-center   product--normal"
+        onClick={[Function]}
+      >
+        <div
+          className="product__quantity d-flex a-center j-center"
+        >
+          <span>
+            1
+          </span>
+        </div>
+        <img
+          alt="Leche"
+          className="product__img"
+          src="alqueria.png"
+        />
+      </div>
+      <div
+        className="product d-flex a-center j-center   product--large"
+        onClick={[Function]}
+      >
+        <div
+          className="product__quantity d-flex a-center j-center"
+        >
+          <span>
+            0
+          </span>
+        </div>
+        <img
+          alt="Detodito"
+          className="product__img product__img--large d-flex"
+          src="detodito.png"
+        />
+      </div>
+      <div
+        className="product d-flex a-center j-center   product--normal"
+        onClick={[Function]}
+      >
+        <div
+          className="product__quantity d-flex a-center j-center"
+        >
+          <span>
+            0
+          </span>
+        </div>
+        <img
+          alt="Hit"
+          className="product__img"
+          src="1.png"
+        />
+      </div>
+    </div>
+  </div>
+</article>
+`;

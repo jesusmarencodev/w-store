@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Head component renders correctly 1`] = `
+<header
+  className="head d-flex a-center"
+>
+  <div
+    className="head__logo"
+  >
+    <img
+      alt="store"
+      className="head__img"
+      src="store.png"
+    />
+  </div>
+  <div
+    className="head__shop d-flex false"
+  >
+    <div
+      className="shop__button"
+      onClick={[Function]}
+    >
+      <img
+        alt="store"
+        className="head__img-car"
+        src="car.png"
+      />
+      <span
+        className="shop-total false"
+      >
+        $
+        0
+      </span>
+    </div>
+  </div>
+</header>
+`;
